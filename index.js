@@ -7,12 +7,12 @@ document.getElementById("play").addEventListener("click", function(){
 // Random number and img Player 1
 let randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
-document.querySelector(".img1").setAttribute("src", "/images/dice" + randomNumber1 + ".png" );
+document.querySelector(".img1").setAttribute("src", "images/dice" + randomNumber1 + ".png" );
 
 // Random number and img Player2
 let randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-document.querySelector(".img2").setAttribute("src", "/images/dice" + randomNumber2 + ".png");
+document.querySelector(".img2").setAttribute("src", "images/dice" + randomNumber2 + ".png");
 
 // Change the h1 - win or draw depending the result of the random numbers.
 
